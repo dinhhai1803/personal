@@ -1,0 +1,395 @@
+@media (max-width: 1460px) {
+    .about__bound {
+        margin: 106px 120px;
+    }
+
+    .services__bound {
+        position: absolute;
+        margin: 108px 120px 98px 120px;
+    }
+
+    .skills__bound {
+        margin: 104px 120px 100px 120px;
+    }
+
+    .teams__bound {
+        padding: 102px 120px 100px 120px;
+    }
+
+    .contact__bound {
+        padding: 100px 120px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .about__bound {
+        margin: 106px 100px;
+    }
+
+    .services__bound {
+        position: absolute;
+        margin: 108px 100px 98px 100px;
+    }
+
+    .skills__bound {
+        margin: 104px 100px 100px 100px;
+    }
+
+    .teams__bound {
+        padding: 102px 100px 100px 100px;
+    }
+
+    .contact__bound {
+        padding: 100px 100px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .about__bound {
+        margin: 106px 80px;
+    }
+
+    .services__bound {
+        position: absolute;
+        margin: 108px 80px 98px 80px;
+    }
+
+    .skills__bound {
+        margin: 104px 80px 100px 80px;
+    }
+
+    .teams__bound {
+        padding: 102px 70px 100px 70px;
+    }
+
+    .contact__bound {
+        padding: 100px 80px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .about__bound {
+        margin: 106px 60px;
+    }
+
+    .services__bound {
+        position: absolute;
+        margin: 108px 60px 98px 60px;
+    }
+
+    .skills__bound {
+        margin: 104px 60px 100px 60px;
+    }
+
+    .teams__bound {
+        padding: 102px 54px 100px 54px;
+    }
+
+    .contact__bound {
+        padding: 100px 50px;
+    }
+}
+
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+    .header__navbar-list {
+        display: none;
+    }
+
+    .header__navbar-hided-icon {
+        display: block;
+    }
+
+    .about__more {
+        width: 100%;
+        display: flex;  
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .skills__bound-body {
+        display: block;
+    }
+
+    .skills__infor {
+        margin: 0 0 40px 0;
+    }
+
+    .skills__grow-bar-list {
+        margin-left: 0;
+    }
+    
+    .contact {
+        height: 998px;
+    }
+
+    .contact__body {
+        display: block;
+    }
+    
+    .contact__infor {
+        padding: 0 0 54px 0;
+    }
+
+    .contact__message-btn {
+        top: 824px;
+    }
+    
+    .contact__message {
+        padding-left: 0;
+    }
+
+}
+
+/* Tablet  */
+@media (min-width: 740px ) and (max-width: 1023px){
+    .header__intro-heading {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 45px;
+    }
+    
+    .header__intro-name {
+        font-size: 60px;
+        line-height: 76px;
+        font-weight: 600;    
+    }
+    
+    .header__intro-sub {
+        line-height: 56px;
+        font-size: 38px;
+        font-weight: 400;
+    }
+    
+    .header__intro-highlight {
+        line-height: 56px;
+        font-size: 38px;
+        font-weight: 400;
+        color: var(--highlight-color);
+    }
+
+    .about__bound {
+        margin: 100px 54px;
+    }
+    
+    .about {
+        height: 978px;
+    }
+    
+    .about__title-picture {
+        width: 378px;
+        height: 378px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .about__infor {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .title {
+        margin-bottom: 48px;
+    }
+
+    .about__infor-btn {
+        top: 606px;
+        left: 0px;
+    }
+
+    .services {
+        height: 916px;
+    }
+
+    .services__bound {
+        position: absolute;
+        margin: 108px 64px 98px 64px;
+    }
+
+    .services__list {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .services__item {
+        width: 48.8%;
+        margin: 2px 0 16px 0;
+    }
+
+    .skills {
+        height: 860px;
+    }
+
+    .skills__bound {
+        margin: 104px 54px 100px 54px;
+    }
+
+    .teams {
+
+    }
+    
+    .teams__bound {
+        padding: 102px 54px 100px 54px;
+    }
+
+    .teams__list {
+        
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .teams__item {
+        width: 47%;
+        margin: 0 10px 5px 10px;
+    }
+
+    .teams__item:last-child,
+    .teams__item:first-child {
+        margin: 0 10px 5px 10px;
+    }
+
+    .contact__bound {
+        padding: 100px 54px;
+    }
+
+    .services__item:last-child {
+        margin-left: calc((100% - 380px) / 2) ;
+    }
+
+    .contact__message-btn,
+    .skills__infor-btn, 
+    .about__infor-btn {
+        width: 170px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .team__shift-left {
+        top: 352px;
+        left: 42px;
+    }
+    
+    .team__shift-right {
+        top: 352px;
+        right: 42px;
+    }
+
+}
+
+/* Mobile  */
+@media (max-width: 739px){
+    .header__intro-heading {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 42px;
+    }
+    
+    .header__intro-name {
+        font-size: 54px;
+        line-height: 72px;
+        font-weight: 600;    
+    }
+    
+    .header__intro-sub {
+        line-height: 50px;
+        font-size: 34px;
+        font-weight: 400;
+    }
+    
+    .header__intro-highlight {
+        line-height: 50px;
+        font-size: 34px;
+        font-weight: 400;
+        color: var(--highlight-color);
+    }
+
+    .header__intro {
+        margin: 200px auto 200px 80px;
+    }
+
+    .about__bound {
+        margin: 100px 20px;
+    }
+    
+    .about {
+        height: 982px;
+    }
+    
+    .about__title-picture {
+        width: 348px;
+        height: 348px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .about__infor {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .title {
+        margin-bottom: 42px;
+    }
+
+    .about__infor-btn {
+        top: 606px;
+        left: 0px;
+    }
+
+    .services {
+        height: 1140px;
+    }
+
+    .services__bound {
+        position: absolute;
+        margin: 108px 20px 98px 20px;
+    }
+
+    .services__list {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .services__item {
+        width: 100%;
+        margin: 2px 0 16px 0;
+        height: 256px;
+    }
+
+    .skills {
+        height: 886px;
+    }
+
+    .skills__bound {
+        margin: 104px 20px 100px 20px;
+    }
+
+    .contact__bound {
+        padding: 100px 20px;
+    }
+
+    .contact__message-btn,
+    .skills__infor-btn,
+    .about__infor-btn {
+        width: 160px;
+        height: 36px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height:36px;
+    }
+
+    .teams__bound {
+        padding: 102px 20px 100px 20px;
+    }
+
+    .team__shift-left {
+        display: none;
+    }
+
+    .team__shift-right {
+        display: none;
+    }
+
+}
